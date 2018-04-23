@@ -1,0 +1,54 @@
+* {
+    font-family: 'Reem Kufi', sans-serif;
+}
+.btn {
+    background: darkgreen;
+}
+.indicators {
+  display: none !important;
+}
+
+
+nav {
+    background: darkgreen;
+}
+.error {
+    color: red;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.sidenav li > a {
+    color: white;
+}
+.page-footer{
+    background: darkgreen;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0;
+}
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.collection .collection-item.avatar {
+    min-height: 50px;
+    padding-left: 10px;
+    position: relative;
+}

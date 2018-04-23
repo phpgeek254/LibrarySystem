@@ -1,0 +1,1 @@
+{!! Html::style(asset('css/app.css')) !!}

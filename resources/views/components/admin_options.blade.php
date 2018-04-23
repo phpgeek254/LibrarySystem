@@ -1,0 +1,5 @@
+@include('components.add_images_action')
+@include('components.edit_action')
+@include('components.delete_action')
+@include('components.show_action')
+@include('components.download_action')
